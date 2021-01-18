@@ -4,19 +4,60 @@
   box-sizing: border-box;
 }
 body {
-  font-family: 'Rubik Mono One', sans-serif;
+  font-family: 'Rubik Mono One', sans-serif;3
 }
-nav
+
+.box {
+  /* max-width: 50%; */
+  margin-left: 90%;
+  max-width: 100%;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+}
 .circle {
   width: 30px;
   height: 30px;
-  background-color: blue;
+  background-color: white;
   border-radius: 50%;
   margin-top: 20px;
   display: inline-block;
+
+}
+.circle p {
+    font-size: 13px;
+    color: black;
 }
 p {
   text-align: center;
-  font-size: 13px;
+  font-size: 25px;
   padding: 8px;
+  color: yellow;
+}
+img {
+  display: block;
+}
+section {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+.superga {
+  background-color: red;
+}
+.hilfiger {
+  background-color: green;
+}
+.converse {
+  background-color: yellow;
+}
+.converse p {
+  color: green;
+}
+.centratura {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
