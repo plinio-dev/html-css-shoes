@@ -6,9 +6,8 @@
 body {
   font-family: 'Rubik Mono One', sans-serif;3
 }
-
+/* intestazione */
 .box {
-  /* max-width: 50%; */
   margin-left: 90%;
   max-width: 100%;
   position: fixed;
@@ -16,6 +15,7 @@ body {
   top: 0;
   left: 0;
 }
+
 a {
   width: 30px;
   height: 30px;
@@ -31,6 +31,8 @@ a p {
   font-size: 13px;
   color: black;
 }
+/* end intestazione */
+/* sezioni */
 p {
   text-align: center;
   font-size: 25px;
@@ -63,3 +65,4 @@ section {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+/* end sezioni */
